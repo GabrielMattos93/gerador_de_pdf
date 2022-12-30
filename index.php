@@ -6,8 +6,7 @@
 require 'vendor/autoload.php';
 
 // Referenciar o dompdf com namespace
-use Dompdf\Dompdf; 
-
+use Dompdf\Dompdf;
 
 //Instanciando a classe dompdf
 
