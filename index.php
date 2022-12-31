@@ -23,5 +23,5 @@ $gerador_de_pdf->setPaper('A4', 'portrait');
 // Renderizar o Html como PDF
 $gerador_de_pdf->render();
 
-// Output the generated PDF to Browser
+// Chamando a função que vai exportar o pdf
 $gerador_de_pdf->stream();
