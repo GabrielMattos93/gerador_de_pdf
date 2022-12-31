@@ -15,4 +15,3 @@ DomPdf<br>
 Utilizei a biblioteca dompdf
 </pre>
 </details>
----
