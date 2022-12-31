@@ -1,8 +1,12 @@
 # Sistema Gerador de PDF
 
-Versão - 1.0
-
 ***
  ### Biblioteca
 
 DomPdf<br>
+
+Log
+
+Versão 1.0
+
+Gerando o arquivo pdf com a biblioteca dompdf
