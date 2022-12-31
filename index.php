@@ -1,7 +1,7 @@
 <?php 
 
-    "<title>Gerador de PDF</title>
-      <h1>Gerador de PDF</h1>"; 
+//Texto de exibição
+/*echo"<h1>Gerador de PDF</h1>";*/ 
 
 require 'vendor/autoload.php';
 
