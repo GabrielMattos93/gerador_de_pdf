@@ -1,27 +1,13 @@
-<?php 
-
-//Texto de exibição
-/*echo"<h1>Gerador de PDF</h1>";*/ 
-
-require 'vendor/autoload.php';
-
-// Referenciar o dompdf com namespace
-use Dompdf\Dompdf;
-
-//Instanciando a classe dompdf
-
-$gerador_de_pdf = new Dompdf();
-
-//Instanciando o método e loadHtml e enviar o contéudo do PDF
-$gerador_de_pdf->loadHtml('Olá Mundo - Este é o Gerador de PDF');
-
-// Orientação da folha do arquivo (Paisagem).
-//$gerador_de_pdf->setPaper('A4', 'landscape');
-
-$gerador_de_pdf->setPaper('A4', 'portrait'); 
-
-// Renderizar o Html como PDF
-$gerador_de_pdf->render();
-
-// Chamando a função que vai exportar o pdf
-$gerador_de_pdf->stream();
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar PDF Com o PHP</title>
+</head>
+<body>
+    <h1>Gerando PDF Com PHP</h1>
+    <a href="pdf.php">Gerar o PDF</a>
+</body>
+</html>
